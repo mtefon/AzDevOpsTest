@@ -11,7 +11,7 @@ pool:
 
 steps:
 # - script: docker build -t sample .
-#   displayName: 'Build Docker Container'
+#   displayName: 'Build Container'
 - task: Docker@2
   inputs:
     containerRegistry: 'mtscacr'
